@@ -1,0 +1,28 @@
+.skin-black .main-header .navbar > .sidebar-toggle {
+    color: #fff !important;
+    border: none !important;
+}
+
+.skin-black .main-header .navbar .sidebar-toggle:hover {
+    background-color: #da7200 !important;
+}
+
+.skin-black .main-header .navbar {
+    background-color: #ff8500 !important;
+}
+
+.skin-black .main-header > .logo {
+    background-color: #ff8500 !important;
+    color: #fff0ff !important;
+    border-bottom: 0 solid transparent;
+    border-right: none !important;
+}
+
+@media (max-width: 767px) {
+    .skin-black .main-header > .logo {
+        background-color: #222222 !important;
+        color: #ffffff !important;
+        border-bottom: 0 solid transparent;
+        border-right: none;
+    }
+}
